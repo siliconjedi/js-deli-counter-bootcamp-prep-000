@@ -3,6 +3,6 @@ function takeANumber (katzDeliLine, newCust){
   return `Welcome, ${newCust}. You are number ${katzDeliLine.length} in line.`
 }
 
-function nowServing(){
+function nowServing(katzDeliLine){
   
 }
