@@ -22,7 +22,7 @@ function currentLine (katzDeliLine){
       if (i < katzDeliLine.length - 1) {
         lineString += ","
       }
-      return lineString
     }
+      return lineString
   }
 }
