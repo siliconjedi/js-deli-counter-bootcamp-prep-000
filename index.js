@@ -11,3 +11,4 @@ function nowServing(katzDeliLine){
     return `Currently serving ${front}.`;
   }
 }
+
