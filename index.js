@@ -17,6 +17,7 @@ function currentLine (katzDeliLine){
   if (katzDeliLine.length === 0) {
     lineString += "empty."
   } else {
+    lineString += ":";
     for (let i = 0; i < katzDeliLine.length; i++) {
       lineString += `${i+1}. ${katzDeliLine[i]}`;
       if (i < katzDeliLine.length - 1) {
